@@ -2,8 +2,6 @@
 
 #include "Video.h"
 
-#include "rswrapper.h"
-
 typedef struct _reed_solomon {
     int ds;
     int ps;
