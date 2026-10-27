@@ -48,6 +48,7 @@ extern uint32_t SunshineFeatureFlags;
 #define SS_ENC_CONTROL_V2 0x01
 #define SS_ENC_VIDEO 0x02
 #define SS_ENC_AUDIO 0x04
+
 // Line to add ApolloVibe
 #define SS_ENC_MICROPHONE 0x08
 
