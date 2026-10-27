@@ -2,6 +2,8 @@
 
 #include "Video.h"
 
+#include "rs.h"
+
 typedef struct _reed_solomon {
     int ds;
     int ps;
