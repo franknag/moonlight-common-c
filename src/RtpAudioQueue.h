@@ -4,13 +4,6 @@
 
 #include "rs.h"
 
-typedef struct _reed_solomon {
-    int ds;
-    int ps;
-    int ts;
-    uint8_t p[];
-} reed_solomon;
-
 // Maximum time to wait for an OOS data/FEC shard
 // after the entire FEC block should have been received
 #define RTPQ_OOS_WAIT_TIME_MS 10
